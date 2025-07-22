@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lógica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header id="header">
+        <h1>PRÁCTICA DE COMPARACIÓN DE NÚMEROS</h1>
+        <h4>¡Aplica tus conocimientos en programación para resolver el siguiente problema!</h4>
+    </header>
+    <main id="main">
+        <section class="seccion">
+            <p>Debes ingresar tres números y luego verás el resultado en pantalla</p>
+            <p>Oprime el botón para ingresar un número</p>
+            <button id="boton" class="botones" onclick="tarea()">Ingresar número</button>
+            <button id="botonReset" class="botones" onclick="reiniciar()">Reiniciar</button>
+            <p id="warning">DEBES INGRESAR SOLO EL NÚMERO, SIN LETRAS, SIN ESPACIOS, SI ES UN DECIMAL CON PUNTO</p>
+        </section>
+        <section id="numIngresados" class="seccion">
+            <h4 id="textoLista" class="tituloSeccion">NÚMEROS INGRESADOS</h4>
+            <ul id="numerosIngresados"></ul>
+            <p id="iguales"></p>
+        </section>
+        <section id="listaMayMen" class="seccion">
+            <h4 id="textoMayorAMenor" class="tituloSeccion">NÚMEROS ORDENADOS DE MAYOR A MENOR</h4>
+            <ul id="mayorAMenor"></ul>
+        </section>
+        <section id="listaMenMay" class="seccion">
+            <h4 id="textoMenorAMayor" class="tituloSeccion">NÚMEROS ORDENADOS DE MENOR A MAYOR</h4>
+            <ul id="menorAMayor"></ul>
+        </section>
+
+        
+
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

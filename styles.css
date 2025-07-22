@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+#header {
+    text-align: center;
+    background-color: #574B60;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.botones {
+    background-color: #D3C4D1;
+    color: #574B60;
+    font-weight: bolder;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px auto;
+}
+
+.botones:hover {
+    color: #fff;
+    background-color: #574B60;
+    font-weight: bolder;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px auto;
+}
+
+#boton:disabled {
+    background-color: rgb(211, 196, 209, 0.5);
+    color: rgb(87, 75, 96, 0.5);
+    font-weight: bolder;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px auto;
+}
+
+#botonReset {
+    display: none;
+}
+
+.seccion {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+}
+
+.tituloSeccion {
+    text-align: center;
+    text-decoration: underline;
+    color: #574B60
+}
+
+#warning {
+    font-weight: bold;
+    color: #D7263D;
+}
+
+#warning, #numIngresados, #listaMayMen, #listaMenMay, #iguales{
+    display: none;
+}
